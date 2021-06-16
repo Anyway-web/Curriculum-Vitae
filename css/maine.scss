@@ -1,0 +1,80 @@
+$primary-color: #2f80ed;
+$secondary-color: #333333;
+
+
+body {
+  background-image: linear-gradient(to left bottom, #deb9ce86, #dbb7d621, #d4b7e0, #c9b8ea4d, #b9baf441,
+   #a7c1fb56, #95c8ff, #82cfff8c, #78dbff67, #75e4fd5d, #7beff77c, #89f6ef81);
+}
+
+html {
+  font-family: Roboto, sans-serif ;
+}
+
+* {
+  color: $secondary-color;
+}
+
+h1 {
+  color: $primary-color;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: $secondary-color;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+h3 {
+  color: $primary-color;
+}
+
+.description {
+  margin-top: 30px;
+}
+
+a {
+  color: $primary-color;
+}
+
+section {
+  margin-bottom: 3em ;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: flex;
+
+  &__type {
+    min-width: 90px;
+  }
+}
+
+.experience {
+  display:flex;
+  margin-bottom: 2em;
+
+  &__date {
+    min-width: 210px;
+    margin-bottom: 1em;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 575px) {
+  .experience {
+    display: block;
+  }
+}

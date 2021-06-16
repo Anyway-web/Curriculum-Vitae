@@ -1,0 +1,82 @@
+body {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#deb9ce), color-stop(#dbb7d6), color-stop(#d4b7e0), color-stop(#c9b8ea), color-stop(#b9baf4), color-stop(#a7c1fb), color-stop(#95c8ff), color-stop(#82cfff), color-stop(#78daff), color-stop(#75e4fd), color-stop(#7beef7), to(#89f6ef));
+  background-image: linear-gradient(to left bottom, #deb9ce, #dbb7d6, #d4b7e0, #c9b8ea, #b9baf4, #a7c1fb, #95c8ff, #82cfff, #78daff, #75e4fd, #7beef7, #89f6ef);
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  color: #333333;
+}
+
+h1 {
+  color: #2f80ed;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: #2f80ed;
+}
+
+.description {
+  margin-top: 30px;
+}
+
+a {
+  color: #2f80ed;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__type {
+  min-width: 90px;
+}
+
+.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.experience__date {
+  min-width: 210px;
+  margin-bottom: 1em;
+}
+
+.experience__name {
+  font-weight: bold;
+}
+
+@media (max-width: 575px) {
+  .experience {
+    display: block;
+  }
+}
+/*# sourceMappingURL=maine.css.map */
