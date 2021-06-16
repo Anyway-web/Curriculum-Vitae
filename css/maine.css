@@ -1,6 +1,5 @@
 body {
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#deb9ce), color-stop(#dbb7d6), color-stop(#d4b7e0), color-stop(#c9b8ea), color-stop(#b9baf4), color-stop(#a7c1fb), color-stop(#95c8ff), color-stop(#82cfff), color-stop(#78daff), color-stop(#75e4fd), color-stop(#7beef7), to(#89f6ef));
-  background-image: linear-gradient(to left bottom, #deb9ce, #dbb7d6, #d4b7e0, #c9b8ea, #b9baf4, #a7c1fb, #95c8ff, #82cfff, #78daff, #75e4fd, #7beef7, #89f6ef);
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 html {
